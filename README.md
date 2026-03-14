@@ -33,10 +33,15 @@ Built and maintained by [MST Semiconductor (集芯科技)](https://ai-mst.com), 
 
 | Module | Description | Key Tech |
 |--------|-------------|----------|
+| **[SECS/GEM Driver](https://github.com/shensi8312/secsgem-driver)** | Production-ready HSMS/SECS-II communication driver for semiconductor equipment (SEMI E4/E5/E30/E37) | asyncio, Pydantic |
 | **P&ID Parser** | Intelligent parsing and symbol recognition for Piping & Instrumentation Diagrams | OpenCV, YOLOv8 |
 | **DOE Optimizer** | Bayesian optimization for Design of Experiments in process tuning | SciPy, BoTorch |
 | **Virtual Metrology (VM) Pipeline** | End-to-end model training pipeline for virtual metrology | PyTorch, scikit-learn |
 | **Equipment Data Preprocessor** | Sensor signal cleaning, alignment, and feature extraction utilities | pandas, NumPy |
+
+### SECS/GEM Driver
+<!-- SECS/GEM 设备通信驱动：基于 SEMI 标准的异步通信协议实现 -->
+A standalone, configuration-driven [SECS/GEM driver](https://github.com/shensi8312/secsgem-driver) implementing SEMI E4/E5/E30/E37 standards. Connect to any semiconductor equipment via HSMS/SECS-II with a simple async Python API. YAML-based equipment profiles mean no code changes for new equipment types. This driver powers the communication layer of the [NeuroBox E series](https://ai-mst.com/neurobox-e3200) edge AI platform.
 
 ### P&ID Parser
 <!-- P&ID 图智能解析：自动识别阀门、传感器、管路等元素 -->
@@ -177,6 +182,7 @@ features.to_parquet("data/processed_features.parquet")
 | Computer Vision | OpenCV, Ultralytics (YOLOv8) |
 | Scientific Computing | NumPy, SciPy, pandas |
 | Visualization | Matplotlib, Plotly |
+| Equipment Communication | [secsgem-driver](https://github.com/shensi8312/secsgem-driver) (HSMS/SECS-II) |
 | Data Formats | Parquet, HDF5, SECS/GEM |
 
 ---
@@ -230,6 +236,16 @@ pytest tests/
 - Keep PRs focused — one feature or fix per PR
 
 Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
+
+---
+
+## Related Projects
+
+| Project | Description |
+|---------|-------------|
+| [secsgem-driver](https://github.com/shensi8312/secsgem-driver) | Production-ready SECS/GEM driver for semiconductor equipment (SEMI E4/E5/E30/E37) |
+| [NeuroBox E series](https://ai-mst.com/neurobox-e3200) | Edge AI platform for semiconductor fabs — Virtual Metrology, R2R, FDC |
+| [NeuroBox E5200V](https://ai-mst.com/neurobox-e5200v) | Vision AI edition for equipment manufacturers |
 
 ---
 

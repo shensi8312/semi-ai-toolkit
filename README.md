@@ -244,8 +244,10 @@ Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
 | Project | Description |
 |---------|-------------|
 | [secsgem-driver](https://github.com/shensi8312/secsgem-driver) | Production-ready SECS/GEM driver for semiconductor equipment (SEMI E4/E5/E30/E37) |
-| [NeuroBox E series](https://ai-mst.com/neurobox-e3200) | Edge AI platform for semiconductor fabs — Virtual Metrology, R2R, FDC |
-| [NeuroBox E5200V](https://ai-mst.com/neurobox-e5200v) | Vision AI edition for equipment manufacturers |
+| [NeuroBox D](https://mst-sg.com/neurobox-d/) | AI design automation — P&ID to native SolidWorks 3D assembly |
+| [NeuroBox E5200](https://mst-sg.com/stop-burning-test-wafers-how-smart-doe-cuts-equipment-commissioning-costs-by-80/) | Smart DOE for equipment commissioning — 80% fewer test wafers |
+| [NeuroBox E3200](https://mst-sg.com/virtual-metrology-explained-how-ai-predicts-wafer-quality-without-physical-measurement/) | Production AI — Virtual Metrology, R2R, FDC at sub-50ms |
+| [NeuroEnergy](https://mst-sg.com/news/neuroenergy-launch/) | AI energy management for semiconductor fabs |
 
 ---
 
@@ -257,7 +259,14 @@ Our core belief: **AI should be deeply embedded in semiconductor equipment, not 
 
 We work at the intersection of domain expertise in semiconductor processes and state-of-the-art AI/ML, delivering tangible improvements in yield, throughput, and equipment uptime for fabs and equipment makers worldwide.
 
-Learn more at **[https://ai-mst.com](https://ai-mst.com)**
+Learn more at **[mst-sg.com](https://mst-sg.com)** (Global) | **[ai-mst.com](https://ai-mst.com)** (China)
+
+### Technical Resources
+- [The Complete Guide to SECS/GEM Protocol](https://mst-sg.com/the-complete-guide-to-secs-gem-protocol-for-semiconductor-equipment/)
+- [Smart DOE vs Traditional DOE](https://mst-sg.com/smart-doe-vs-traditional-doe-why-ai-experiments-need-80-fewer-wafers/)
+- [Virtual Metrology Explained](https://mst-sg.com/virtual-metrology-explained-how-ai-predicts-wafer-quality-without-physical-measurement/)
+- [Run-to-Run Control with AI](https://mst-sg.com/run-to-run-control-the-ai-system-that-automatically-tunes-every-wafer/)
+- [FDC: Reducing False Alarms by 70%](https://mst-sg.com/fdc-fault-detection-and-classification-how-ai-reduces-false-alarms-by-70/)
 
 ---
 
@@ -286,7 +295,7 @@ limitations under the License.
 ## Contact
 
 - **Email:** [contact@ai-mst.com](mailto:contact@ai-mst.com)
-- **Website:** [https://ai-mst.com](https://ai-mst.com)
+- **Website:** [mst-sg.com](https://mst-sg.com) (Global) | [ai-mst.com](https://ai-mst.com) (China)
 - **GitHub Issues:** For bug reports and feature requests, please use [GitHub Issues](https://github.com/ai-mst/semi-ai-toolkit/issues)
 
 ---
